@@ -1,0 +1,12 @@
+eth.coinbase
+eth.getBalance(eth.coinbase)
+miner.start()
+eth.getBalance(eth.coinbase)
+miner.stop()
+eth.getBalance(eth.coinbase)
+geth --datadir ./peer2DataDir init ./Genesis.json
+admin.nodeInfo.enode
+admin.pears
+admin.nodeInfo.enode
+net.peerCount
+admin.nodeInfo.enode
