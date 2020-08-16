@@ -19,3 +19,13 @@
 =============== May 10, 2020 (PKT) ===============
 08:21:29.928222 db@close closing
 08:21:29.929299 db@close done T·1.077119ms
+=============== Jul 7, 2020 (PKT) ===============
+11:25:23.247278 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+11:25:23.248935 version@stat F·[1] S·759B[759B] Sc·[0.25]
+11:25:23.248969 db@open opening
+11:25:23.249062 journal@recovery F·1
+11:25:23.251595 journal@recovery recovering @3
+11:25:23.265118 memdb@flush created L0@5 N·294 S·12KiB "\x01\xe0Z..\xe2z.,v306":"\x92\xe1\xb2..x<h,v307"
+11:25:23.268810 version@stat F·[2] S·13KiB[13KiB] Sc·[0.50]
+11:25:23.312554 db@janitor F·4 G·0
+11:25:23.312597 db@open done T·63.611267ms

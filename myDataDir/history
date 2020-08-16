@@ -10,3 +10,10 @@ admin.pears
 admin.nodeInfo.enode
 net.peerCount
 admin.nodeInfo.enode
+eth.coinbase
+eth.getBalance(eth.coinbase)
+admin.nodeInfo.enode
+admin.peers
+geth --help
+help
+--help

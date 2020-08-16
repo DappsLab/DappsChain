@@ -16,3 +16,47 @@
 13:55:07.126398 version@stat F·[1] S·759B[759B] Sc·[0.25]
 13:55:07.168540 db@janitor F·3 G·0
 13:55:07.168626 db@open done T·59.641247ms
+=============== Jul 7, 2020 (PKT) ===============
+11:21:41.988287 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+11:21:41.989874 version@stat F·[1] S·759B[759B] Sc·[0.25]
+11:21:41.989932 db@open opening
+11:21:41.990066 journal@recovery F·1
+11:21:42.067531 journal@recovery recovering @3
+11:21:42.079213 memdb@flush created L0@5 N·217 S·9KiB "Dat..ion,v14":"r\x00\x00..\xaf\xf4T,v226"
+11:21:42.083013 version@stat F·[2] S·9KiB[9KiB] Sc·[0.50]
+11:21:42.124703 db@janitor F·4 G·0
+11:21:42.125060 db@open done T·135.083316ms
+12:03:58.274380 db@close closing
+12:03:58.274898 db@close done T·514.937µs
+=============== Jul 7, 2020 (PKT) ===============
+12:05:07.524309 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+12:05:07.525411 version@stat F·[2] S·9KiB[9KiB] Sc·[0.50]
+12:05:07.525446 db@open opening
+12:05:07.525568 journal@recovery F·1
+12:05:07.527957 journal@recovery recovering @6
+12:05:07.541061 memdb@flush created L0@8 N·1 S·215B "Las..ock,v232":"Las..ock,v232"
+12:05:07.543724 version@stat F·[3] S·10KiB[10KiB] Sc·[0.75]
+12:05:07.596876 db@janitor F·5 G·0
+12:05:07.596917 db@open done T·71.452417ms
+12:05:08.931148 db@close closing
+12:05:08.931382 db@close done T·231.258µs
+=============== Jul 7, 2020 (PKT) ===============
+12:06:01.792041 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+12:06:01.793176 version@stat F·[3] S·10KiB[10KiB] Sc·[0.75]
+12:06:01.793238 db@open opening
+12:06:01.793384 journal@recovery F·1
+12:06:01.795745 journal@recovery recovering @9
+12:06:01.798757 version@stat F·[3] S·10KiB[10KiB] Sc·[0.75]
+12:06:01.842626 db@janitor F·5 G·0
+12:06:01.842686 db@open done T·49.421435ms
+=============== Aug 16, 2020 (PKT) ===============
+21:24:55.561006 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+21:24:55.562500 version@stat F·[3] S·10KiB[10KiB] Sc·[0.75]
+21:24:55.562543 db@open opening
+21:24:55.562668 journal@recovery F·1
+21:24:55.566837 journal@recovery recovering @11
+21:24:55.569510 version@stat F·[3] S·10KiB[10KiB] Sc·[0.75]
+21:24:55.630406 db@janitor F·5 G·0
+21:24:55.630504 db@open done T·67.930196ms
+22:38:22.179311 db@close closing
+22:38:22.179657 db@close done T·345.632µs
